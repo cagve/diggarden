@@ -33,3 +33,4 @@ gem 'jekyll-sitemap'
 gem 'kramdown-math-katex'
 
 gem "webrick", "~> 1.9"
+gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
