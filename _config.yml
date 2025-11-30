@@ -1,41 +1,16 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://simply-jekyll.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 
-#######################################################################
-# Settings related to the Header and your About page go here,such as 
-# your name, site name, profile pic, site tagline, your bio, 
-# your social media links etc
-#######################################################################
-
-heading: Simply Jekyll
+heading: Karu
 subheading: # subheading won't work without a tagline, 
           # tagline is mandatory if you want the 
           # suheading to appear. The reason is
           # having a heading and a subheading looks 
           # ridiculous.
   enabled: true
-  name: Notes and Thoughts
+  name: Jardín Digital
 tagline: # subheading won't work without a tagline, 
          # tagline is mandatory if you want the 
          # suheading to appear. The reason is
@@ -45,28 +20,28 @@ tagline: # subheading won't work without a tagline,
          # the subheading to support the main heading
          # which in this case is 'Knowledge Continuum'
   enabled: true
-  name: An experiment to spark conversations
-copyright: 
-  year: 2020
-  msg: Raghuveer S # This is a mandatory attribute for copyright to be displayed
+  name: Radom stuff
+# copyright: 
+#   year: 2025
+#   msg: Raghuveer S # This is a mandatory attribute for copyright to be displayed
 
 user:
   display: true # setting it to false will remove the header image and bio
                 # Note that user settings come wholesale, it does not have the 
                 # granular enabling or disabling as with the 'preferences'
                 # or the site-wide settings.
-  name: Raghuveer S
-  bio: Programmer ∪ Writer. Interested in constraints and correspondences.
+  name: Karu
+  bio: no sé que poner :)
   email: raghu-veer@outlook.com
   photo: /assets/img/profile.png
-  alt_link: rgvr.me
+  alt_link: karuwww.neocities.org
   social: # just leave the field blank or type in null, if you don't have a
           # particular social media account and it won't appear
     enabled: false  # turn this to true
-    twitter: rgvrme
-    github: rgvr 
-    youtube: rgvr 
-    linkedin: rgvr  
+    twitter: null
+    github: null 
+    youtube: null 
+    linkedin: null  
     twitch: null
     facebook: null 
     instagram: null
